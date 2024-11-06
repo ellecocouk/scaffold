@@ -1,6 +1,5 @@
 install:
-  pip install --upgrade pip &&\
-    pip install -r requirements-azure.txt
+  pip install -r requirements-azure.txt
 
 lint:
   pylint --disable=R,C hello.py
