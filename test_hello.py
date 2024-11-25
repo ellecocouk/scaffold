@@ -1,4 +1,4 @@
-import hello 
+from hello import add
 
 
 def setup_function(function):
