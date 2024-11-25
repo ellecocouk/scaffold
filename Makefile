@@ -6,7 +6,7 @@ test:
 	python -m pytest -vv test_hello.py
 
 format:
-	black *.py
+	python -m black *.py
  
 lint:
 	python3 -m pylint --disable=R,C hello.py
