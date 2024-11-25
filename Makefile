@@ -5,6 +5,8 @@ install:
 test:
 	python -m pytest -vv test_hello.py
 
+format:
+	black *.py
  
 lint:
 	python3 -m pylint --disable=R,C hello.py
